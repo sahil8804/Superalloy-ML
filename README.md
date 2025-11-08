@@ -20,14 +20,18 @@ The goal of this project is to analyze material behavior under repeated thermal 
 
 ```
 
-Superalloy-Relaxation-ML/
-├── ml1min.ipynb        # Main Jupyter Notebook (ML model training + results)
-├── data/               # (Optional) Material dataset if included
-├── models/             # Saved ML models (if exported)
-├── README.md           # Project documentation
-└── requirements.txt    # Python dependencies (optional)
+Superalloy-ML/
+├── README.md                     # Project documentation
+├── ml1min.ipynb                  # Main Jupyter Notebook (ML training + predictions)
+├── S158-0.4-700-10MIN.xlsx       # Dataset file
+├── S160-0.4-700-1MIN.xlsx        # Dataset file
+├── S163-0.4-700-MIN.xlsx         # Dataset file
+└── (Optional future folders)
+├── data/                     # Place additional datasets here
+├── models/                   # Saved ML models
+└── requirements.txt          # Python dependencies list
 
-````
+```
 
 ---
 
